@@ -17,6 +17,7 @@ func main() {
 	// 2. Bilangan itu sendiri
 	if angka <= 1 {
 		fmt.Println(angka, "Bukan bilangan prima")
+		return
 	}
 
 	akar := int(math.Sqrt(float64(angka)))
